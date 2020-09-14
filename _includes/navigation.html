@@ -1,8 +1,8 @@
 <nav>
   <ul>
-    <li><a href="{% link index.html %}">Projects</a></li>
-    <li><a href="{% link blog.html %}">Blog</a></li>
-    <li><a href="{% link other.html %}">Other</a></li>
-    <li><a href="{% link about.html %}">About</a></li>
+    <li><a href="{{ '/' | relative_url }}">Projects</a></li>
+    <li><a href="{{ 'blog/' | relative_url }}">Blog</a></li>
+    <li><a href="{{ 'other/' | relative_url }}">Other</a></li>
+    <li><a href="{{ 'about/' | relative_url }}">About</a></li>
   </ul>
 </nav>
