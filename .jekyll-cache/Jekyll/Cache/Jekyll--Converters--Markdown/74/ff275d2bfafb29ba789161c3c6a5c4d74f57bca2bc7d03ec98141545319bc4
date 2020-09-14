@@ -1,6 +1,6 @@
-I"¯<figure>
-  <img src="/assets/images/posts/map-beavercreek-bathrooms.png" alt="Map of property parcels in Beavercreek, Ohio, color coded by number of bathrooms, which ranges from 1 to 9." />
-  <figcaption>Street data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors</figcaption>
+I"¨<figure>
+  <img src="/bogardpd/assets/images/posts/map-beavercreek-bathrooms.png" alt="Map of property parcels in Beavercreek, Ohio, color coded by number of bathrooms, which ranges from 1 to 9." />
+  <figcaption>Street data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</figcaption>
 </figure>
 
 <p>Some of the local neighborhoods that I go on walks through were damaged by the 2019 Memorial Day tornadoes, and Iâ€™ve gradually watched some houses be rebuilt. I had an idea of playing around with plotting the path of the property damage, so I went looking for Beavercreek, Ohio property parcel shapefiles.</p>
