@@ -1,0 +1,25 @@
+---
+title: "Flight Historian"
+permalink: /flight-historian/
+---
+
+<p>Flight Historian is a personal flight tracking website, allowing me to map and analyze all flights I’ve taken. Flights can be viewed all together, or analyzed by airline, aircraft, airport, route, class, or tail number.</p>
+
+<h2>Version History</h2>
+
+<table>
+  <thead>
+    <th>Release</th>
+    <th>Name</th>
+    <th>Date</th>
+  </thead>
+  <tbody>
+    {% for release in site.flight_historian_versions reversed %}
+      <tr>
+        <td>{{ release.version_number }}</td>
+        <td><a href="{{ release.url }}">{{ release.name }}</a></td>
+        <td>{{ release.release_date | date: "%d %b %Y" }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
